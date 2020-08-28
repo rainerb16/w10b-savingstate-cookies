@@ -5,12 +5,44 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
-img {
+p, button {
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid #c21b6c;
+  -webkit-box-shadow: 1px 0px 3px #c21b6c;
+          box-shadow: 1px 0px 3px #c21b6c;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #3bbb00;
+  letter-spacing: 2px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #c21b6c;
+  letter-spacing: 2px;
+}
+
+#images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5vw;
+}
+
+#images img {
+  width: 90%;
+  border-radius: 5%;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 250px;
-  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */

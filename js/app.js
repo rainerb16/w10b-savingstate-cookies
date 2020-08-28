@@ -1,16 +1,20 @@
-var selection = Cookies.get("");
-
-var deepTechno = document.getElementById("deep");
+// Deep Techno Function
 function deepClick() {
-    Cookies.set("deeptechno", "Deep Techno");
+    var deepTechno = document.getElementById("deep");
+    var windowNew = window.open("selection.html", "_self");
+    Cookies.set("techno", "Deep Techno");
 }
 
-var industrialTechno = document.getElementById("industrial");
+// Industrial Techno Function
 function industrialClick() {
-    Cookies.set("industrialtechno", "Industrial Techno");
+    var industrialTechno = document.getElementById("industrial");
+    var windowNew = window.open("selection.html", "_self");
+    Cookies.set("techno", "Industrial Techno");
 }
 
-var peakTimeTechno = document.getElementById("peaktime");
+// Peak Time Techno Function
 function peakTimeClick() {
-    Cookies.set("peaktimetechno", "Peak Time Techno");
+    var peakTimeTechno = document.getElementById("peaktime");
+    var windowNew = window.open("selection.html", "_self");
+    Cookies.set("techno", "Peak Time Techno");
 }
