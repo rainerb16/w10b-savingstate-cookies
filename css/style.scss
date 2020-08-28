@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    width: 250px;
+    padding: 10px;
+}
